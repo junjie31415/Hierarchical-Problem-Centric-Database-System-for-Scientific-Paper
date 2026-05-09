@@ -1,0 +1,12 @@
+{
+  "papers": 340,
+  "train_papers": 272,
+  "valid_papers": 68,
+  "unique_reference_ids": 15584,
+  "cached_reference_titles": 13098,
+  "papers_with_reference_titles": 340,
+  "total_reference_edges": 20319,
+  "resolved_reference_edges": 16942,
+  "unresolved_reference_edges": 3377,
+  "resolved_edge_rate": 0.833801
+}

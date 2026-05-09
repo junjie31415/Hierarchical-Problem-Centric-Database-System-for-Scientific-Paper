@@ -1,0 +1,281 @@
+{
+  "filter": "remove_poor_clusters",
+  "poor_node_count": 11,
+  "removed_node_paths": [
+    "Deep Learning > Computer Vision > Visual Parsing",
+    "Deep Learning > Computer Vision > Visual Parsing > Instance Parsing Tasks",
+    "Deep Learning > Multimodal Learning > Vision-Language Generation and Retrieval > Generation Tasks",
+    "Deep Learning > Multimodal Learning > Vision-Language Understanding > Description Tasks",
+    "Deep Learning > Multimodal Learning > Vision-Language Understanding > Question Answering Tasks",
+    "Deep Learning > Natural Language Processing > Text Generation > Summarization Tasks > Summarization",
+    "Deep Learning > Natural Language Processing > Text Generation > Translation Tasks",
+    "Deep Learning > Natural Language Processing > Text Generation > Translation Tasks > Machine Translation",
+    "Deep Learning > Natural Language Processing > Text Understanding > Extraction Tasks > Information Extraction",
+    "Deep Learning > Speech and Audio > Speech Generation and Enhancement > Enhancement Tasks",
+    "Deep Learning > Speech and Audio > Speech Generation and Enhancement > Synthesis Tasks"
+  ],
+  "splits": {
+    "train": {
+      "input_papers": 360,
+      "kept_papers": 272,
+      "removed_papers": 88,
+      "kept_node_count": 34,
+      "removed_node_count": 11
+    },
+    "valid": {
+      "input_papers": 90,
+      "kept_papers": 68,
+      "removed_papers": 22,
+      "kept_node_count": 34,
+      "removed_node_count": 11
+    }
+  },
+  "kept_node_count": 34,
+  "kept_level_counts": {
+    "0": 10,
+    "1": 40,
+    "2": 70,
+    "3": 90,
+    "4": 130
+  },
+  "kept_nodes": {
+    "Deep Learning": {
+      "node_name": "Deep Learning",
+      "node_level": 0,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Computer Vision": {
+      "node_name": "Computer Vision",
+      "node_level": 1,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Computer Vision > Visual Parsing > Instance Parsing Tasks > Instance Segmentation": {
+      "node_name": "Instance Segmentation",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Computer Vision > Visual Parsing > Semantic Parsing Tasks": {
+      "node_name": "Semantic Parsing Tasks",
+      "node_level": 3,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Computer Vision > Visual Parsing > Semantic Parsing Tasks > Semantic Segmentation": {
+      "node_name": "Semantic Segmentation",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Computer Vision > Visual Recognition": {
+      "node_name": "Visual Recognition",
+      "node_level": 2,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Computer Vision > Visual Recognition > Classification Tasks": {
+      "node_name": "Classification Tasks",
+      "node_level": 3,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Computer Vision > Visual Recognition > Classification Tasks > Image Classification": {
+      "node_name": "Image Classification",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Computer Vision > Visual Recognition > Detection Tasks": {
+      "node_name": "Detection Tasks",
+      "node_level": 3,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Computer Vision > Visual Recognition > Detection Tasks > Object Detection": {
+      "node_name": "Object Detection",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Multimodal Learning": {
+      "node_name": "Multimodal Learning",
+      "node_level": 1,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Multimodal Learning > Vision-Language Generation and Retrieval": {
+      "node_name": "Vision-Language Generation and Retrieval",
+      "node_level": 2,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Multimodal Learning > Vision-Language Generation and Retrieval > Generation Tasks > Text-to-Image Generation": {
+      "node_name": "Text-to-Image Generation",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Multimodal Learning > Vision-Language Generation and Retrieval > Retrieval Tasks": {
+      "node_name": "Retrieval Tasks",
+      "node_level": 3,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Multimodal Learning > Vision-Language Generation and Retrieval > Retrieval Tasks > Cross-Modal Retrieval": {
+      "node_name": "Cross-Modal Retrieval",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Multimodal Learning > Vision-Language Understanding": {
+      "node_name": "Vision-Language Understanding",
+      "node_level": 2,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Multimodal Learning > Vision-Language Understanding > Description Tasks > Image Captioning": {
+      "node_name": "Image Captioning",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Multimodal Learning > Vision-Language Understanding > Question Answering Tasks > Visual Question Answering": {
+      "node_name": "Visual Question Answering",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Natural Language Processing": {
+      "node_name": "Natural Language Processing",
+      "node_level": 1,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Natural Language Processing > Text Generation": {
+      "node_name": "Text Generation",
+      "node_level": 2,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Natural Language Processing > Text Generation > Summarization Tasks": {
+      "node_name": "Summarization Tasks",
+      "node_level": 3,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Natural Language Processing > Text Understanding": {
+      "node_name": "Text Understanding",
+      "node_level": 2,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Natural Language Processing > Text Understanding > Classification Tasks": {
+      "node_name": "Classification Tasks",
+      "node_level": 3,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Natural Language Processing > Text Understanding > Classification Tasks > Text Classification": {
+      "node_name": "Text Classification",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Natural Language Processing > Text Understanding > Extraction Tasks": {
+      "node_name": "Extraction Tasks",
+      "node_level": 3,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Speech and Audio": {
+      "node_name": "Speech and Audio",
+      "node_level": 1,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Speech and Audio > Speech Generation and Enhancement": {
+      "node_name": "Speech Generation and Enhancement",
+      "node_level": 2,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Speech and Audio > Speech Generation and Enhancement > Enhancement Tasks > Speech Enhancement": {
+      "node_name": "Speech Enhancement",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Speech and Audio > Speech Generation and Enhancement > Synthesis Tasks > Text-to-Speech": {
+      "node_name": "Text-to-Speech",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Speech and Audio > Speech Understanding": {
+      "node_name": "Speech Understanding",
+      "node_level": 2,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Speech and Audio > Speech Understanding > Recognition Tasks": {
+      "node_name": "Recognition Tasks",
+      "node_level": 3,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Speech and Audio > Speech Understanding > Recognition Tasks > Automatic Speech Recognition": {
+      "node_name": "Automatic Speech Recognition",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Speech and Audio > Speech Understanding > Speaker Tasks": {
+      "node_name": "Speaker Tasks",
+      "node_level": 3,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    },
+    "Deep Learning > Speech and Audio > Speech Understanding > Speaker Tasks > Speaker Verification": {
+      "node_name": "Speaker Verification",
+      "node_level": 4,
+      "papers": 10,
+      "train": 8,
+      "valid": 2
+    }
+  }
+}

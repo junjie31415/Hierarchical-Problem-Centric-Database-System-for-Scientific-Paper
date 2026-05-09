@@ -1,0 +1,32 @@
+{
+  "train": {
+    "papers": 272,
+    "pairs": 73712,
+    "reverse_augmentation": true,
+    "label_counts": {
+      "A_TO_B": 5632,
+      "B_TO_A": 5632,
+      "PEER": 1904,
+      "NONE": 60544
+    },
+    "paths": {
+      "papers": "dataset/train_papers.jsonl",
+      "labels": "dataset/train_labels.jsonl"
+    }
+  },
+  "valid": {
+    "papers": 68,
+    "pairs": 4556,
+    "reverse_augmentation": true,
+    "label_counts": {
+      "A_TO_B": 352,
+      "B_TO_A": 352,
+      "PEER": 68,
+      "NONE": 3784
+    },
+    "paths": {
+      "papers": "dataset/valid_papers.jsonl",
+      "labels": "dataset/valid_labels.jsonl"
+    }
+  }
+}
